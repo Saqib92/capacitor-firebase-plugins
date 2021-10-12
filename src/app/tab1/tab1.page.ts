@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FirebaseCrashlytics } from '@capacitor-community/firebase-crashlytics';
 
 @Component({
   selector: 'app-tab1',
@@ -7,6 +8,21 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+  constructor() {
+    this.setContext();
+  }
+
+  async crash() {
+    await FirebaseCrashlytics.crash({ message: 'New testing again' });
+  };
+
+
+  async setContext(){
+    await FirebaseCrashlytics.setContext({ 
+      key: 'page',
+      value: 'tab 2',
+      type: 'string'
+    });
+  };
 
 }

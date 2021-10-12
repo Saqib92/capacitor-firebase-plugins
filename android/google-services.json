@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "609535875616",
+    "project_id": "fbanalytic-2311b",
+    "storage_bucket": "fbanalytic-2311b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609535875616:android:c811fa1fb3a781a480ba45",
+        "android_client_info": {
+          "package_name": "com.fashionvista.firebaseanalytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609535875616-6ekm6nejos3cnccdvd90jt3arjmkndlo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwT2zwZQSUmlBrHUsHKl0gFtMdTxQJriw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609535875616-6ekm6nejos3cnccdvd90jt3arjmkndlo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

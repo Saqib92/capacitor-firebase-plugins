@@ -1,0 +1,6 @@
+{
+	"appId": "com.fashionvista.firebaseanalytics",
+	"appName": "firebaseAnalytic",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
